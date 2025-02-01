@@ -23,7 +23,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://neom.scene7.com/is/image/neom/media-gaming-hero-thumbnail?wid=1920&hei=1080);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://www.seattleu.edu/media/seattle-university/web-redesign---admissions-amp-aid/Hero-CampusOverall.jpg?wid=1920&hei=1080);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -43,7 +43,7 @@ nav {
 
 /* Logo sizing within navigation */
 nav img {
-    width: 150px;
+    width: 100px;
 }
 
 
@@ -76,7 +76,7 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 
