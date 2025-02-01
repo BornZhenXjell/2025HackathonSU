@@ -23,7 +23,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://www.seattleu.edu/media/seattle-university/web-redesign---admissions-amp-aid/Hero-CampusOverall.jpg?wid=1920&hei=1080);
+    background-image: linear-gradient(transparent, rgba(4, 9, 30, 0.7)), url(https://www.seattleu.edu/media/seattle-university/web-redesign---admissions-amp-aid/Hero-CampusOverall.jpg?wid=1920&hei=1080);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -115,7 +115,7 @@ nav .fa {
     width: 80%;
     margin: 50px auto;
     text-align: center;
-    background: #fff3f3;
+    background: #000000;
     padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -126,7 +126,7 @@ nav .fa {
 .about-club h2 {
     font-size: 28px;
     font-weight: 700;
-    color: #a61cb5;
+    color: #ff2400;
     margin-bottom: 20px;
 }
 
@@ -134,7 +134,7 @@ nav .fa {
 /* About section paragraph text */
 .about-club p {
     font-size: 16px;
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -142,7 +142,7 @@ nav .fa {
 /* Find us here button on the Index page */
 .index-button {
     display: inline-block;
-    background-color: #a61cb5; /* Primary button color */
+    background-color: #ff0000; /* Primary button color */
     color: #ffffff; /* Button text color */
     padding: 10px 20px;
     font-size: 16px;
