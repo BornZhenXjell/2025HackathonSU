@@ -537,7 +537,7 @@ h3 {
 
 /* Footer links */
 .footer-section ul li a {
-    color: #fff;
+    color: #777;
     text-decoration: none;
     transition: color 0.3s ease;
 }
