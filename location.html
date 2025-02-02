@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Hours @ SU</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        .office-hours {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .office-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .office {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            align-items: left;
+            gap: 20px;
+        }
+
+        .office-content {
+            display: flex;
+            align-items: left;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .office-text {
+            flex: 1;
+        }
+
+        .office-photo {
+            flex-shrink: 0;
+            width: 150px; /* Fixed width for the photo */
+            height: 150px; /* Fixed height for the photo */
+            border-radius: 10px;
+            overflow: hidden; /* Ensures the image stays within the bounds */
+        }
+
+        .office-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+        }
+
+        .location-info, .hours-info, .phone-info, .email-info {
+            color: #000000; /* Black color for the information */
+            font-weight: bold;
+        }
+
+        .contact {
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a><img alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#info">Office Hours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Office Hours</h1>
+            <p>@ Seattle University</p>
+            <a href="#info" class="hero-btn">VIEW HOURS</a>
+        </div>
+    </section>
+
+    <section class="office-hours" id="info">
+        <h1>Office Hours</h1>
+        <div class="office-list">
+            <h3 style="color: rgb(0, 0, 0);">Advising Center</h3>
+            
+            <div class="office">
+                <div class="office-content">
+                    <div class="office-text">
+                        
+                        <p>
+                            <i class="fas fa-map-marker-alt" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Location:</strong> <span class="location-info">BANN 323.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Hours:</strong> <span class="hours-info">M-F 8 a.m.-4:30 p.m.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Phone:</strong> <span class="phone-info">(206)-296-2500</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Email:</strong> <span class="email-info">se-adv@seattleu.edu</span>
+                        </p>
+                    </div>
+                    <div class="office-photo">
+                        <img src="https://pxl-seattleuedu.terminalfour.net/fit-in/860x860/filters:quality(90)/0x960:3840x4800/prod01/channel_34/media/seattle-university/college-of-science-and-engineering/images/CareerServices_cjt_Advising_024.JPG" alt="Advising Center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-hours" id="info">
+        <div class="office-list">
+            <h3 style="color: rgb(0, 0, 0);">Library</h3>
+            <div class="office">
+                <div class="office-content">
+                    <div class="office-text">
+                        
+                        <p>
+                            <i class="fas fa-map-marker-alt" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Location:</strong> <span class="location-info">Lemieux Library.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Hours:</strong> <span class="hours-info">M-F 10am–6pm.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Phone:</strong> <span class="phone-info">(206) 296 6210</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Email:</strong> <span class="email-info">library@seattleu.edu</span>
+                        </p>
+                    </div>
+                    <div class="office-photo">
+                        <img src="https://pxl-seattleuedu.terminalfour.net/fit-in/860x860/filters:quality(90)/772x0:4029x3257/prod01/channel_34/media/seattle-university/academics/lemieux-library/LibraryAtNight_yck_001.jpg" alt="Library">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-hours" id="info">
+        <div class="office-list">
+            <h3 style="color: rgb(0, 0, 0);">Dean Office</h3>
+            <div class="office">
+                <div class="office-content">
+                    <div class="office-text">
+                        
+                        <p>
+                            <i class="fas fa-map-marker-alt" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Location:</strong> <span class="location-info">Student Center 140.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Hours:</strong> <span class="hours-info">M-F 10am–6pm.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Phone:</strong> <span class="phone-info">(206) 296 6060</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Email:</strong> <span class="email-info">deanofstudents@seattleu.edu</span>
+                        </p>
+                    </div>
+                    <div class="office-photo">
+                        <img src="https://pxl-seattleuedu.terminalfour.net/fit-in/360x220/filters:quality(90)/29x0:2372x1432/prod01/channel_34/media/seattle-university/images-by-content-type/general-page-hero/OrientationSummerInSeattle2019_yck_001.JPG" alt="Dean Office">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="office-hours" id="info">
+        <div class="office-list">
+            <h3 style="color: rgb(0, 0, 0);">Cafeteria</h3>
+            <div class="office">
+                <div class="office-content">
+                    <div class="office-text">
+                        
+                        <p>
+                            <i class="fas fa-map-marker-alt" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Location:</strong> <span class="location-info">Student Center floor 2.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Hours:</strong> <span class="hours-info">Mon-Sun 8:00-22:00</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Phone:</strong> <span class="phone-info"></span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Email:</strong> <span class="email-info"></span>
+                        </p>
+                    </div>
+                    <div class="office-photo">
+                        <img src="https://pxl-seattleuedu.terminalfour.net/fit-in/860x860/filters:quality(90)/400x0:2000x1600/prod01/channel_34/media/seattle-university/web-redesign---university-events/StudentCenterDining_pw_001.jpg" alt="Dean Office">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-hours" id="info">
+        <div class="office-list">
+            <h3 style="color: rgb(0, 0, 0);">Public Safety</h3>
+            <div class="office">
+                <div class="office-content">
+                    <div class="office-text">
+                      
+                        <p>
+                            <i class="fas fa-map-marker-alt" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Location:</strong> <span class="location-info">1313 E. Columbia Building</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Hours:</strong> <span class="hours-info">Mon-Thurs, 8:30am-4:00pm</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Phone:</strong> <span class="phone-info">206-296-5990</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope" style="color: rgba(0, 255, 174, 0.589);"></i>
+                            <strong style="color: rgb(255, 0, 0);">Email:</strong> <span class="email-info">publicsafety@seattleu.edu</span>
+                        </p>
+                    </div>
+                    <div class="office-photo">
+                        <img src="https://pxl-seattleuedu.terminalfour.net/fit-in/860x860/filters:quality(90)/536x0:2696x2160/prod01/channel_34/media/seattle-university/public-safety/images/moved/image.remini-enhanced-(2).jpg" alt="Dean Office">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Office Hours @ SU</p>
+    </footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
