@@ -172,6 +172,33 @@ nav .fa {
     background-color: #008080; /* Even darker shade when clicked */
 }
 
+ .club-card {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.club-card p {
+    font-size: 1rem;
+    color: #fff;
+    line-height:1.6;
+}
+
+.club-card h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #ff2400;
+    margin-bottom: 1rem;
+}
+
+#clubPage {
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(255,36,0), black);
+}
+
 .prof-card {
     max-width: 900px;
     margin: 20px auto;
