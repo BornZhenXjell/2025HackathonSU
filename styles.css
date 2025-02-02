@@ -31,7 +31,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(transparent, rgba(255,137,123,1)), url(https://www.seattleu.edu/media/seattle-university/web-redesign---admissions-amp-aid/Hero-CampusOverall.jpg?wid=1920&hei=1080);
+    background-image: linear-gradient(transparent, rgba(255,139,125,255)), url(https://www.seattleu.edu/media/seattle-university/web-redesign---admissions-amp-aid/Hero-CampusOverall.jpg?wid=1920&hei=1080);
     background-position: center;
     background-size: cover;
     position: relative;
