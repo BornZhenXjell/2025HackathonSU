@@ -77,7 +77,7 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -125,7 +125,7 @@ nav .fa {
 
 /* About section heading */
 .about-club h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
     color: #ff2400;
     margin-bottom: 20px;
@@ -134,7 +134,7 @@ nav .fa {
 
 /* About section paragraph text */
 .about-club p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffffff;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -146,7 +146,7 @@ nav .fa {
     background-color: #ff0000; /* Primary button color */
     color: #ffffff; /* Button text color */
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -185,7 +185,7 @@ nav .fa {
 .text-box p {
     margin: 10px 0 40px;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 
@@ -198,7 +198,7 @@ nav .fa {
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 0.8125rem;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -215,7 +215,7 @@ nav .fa {
 
 /* Main heading styles */
 h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 600;
 }
 
@@ -223,7 +223,7 @@ h1 {
 /* General paragraph styling */
 p {
     color: #777;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -301,7 +301,7 @@ h3 {
     width: 100%;
     font-weight: 500;
     color: #ffff00;
-    font-size: 26px;
+    font-size: 1.625rem;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -459,7 +459,7 @@ h3 {
 
 .register-div p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -469,7 +469,7 @@ h3 {
     color: #fff;
     background: #a71cb7;
     padding: 12px 34px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 5px;
     transition: all 0.3s ease;
     border: 2px solid #a71cb7;
@@ -618,7 +618,7 @@ h3 {
 
 /* Contact section text */
 .contact p {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 
@@ -670,7 +670,7 @@ h3 {
  */
 @media (max-width: 700px) {
     .text-box h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
 
@@ -696,7 +696,7 @@ h3 {
         display: block;
         color: #fff;
         margin: 10px;
-        font-size: 22px;
+        font-size: 1.375rem;
         cursor: pointer;
     }
 
