@@ -19,6 +19,7 @@ body {
 
 #indexPage{
 
+    overflow-x: hidden;
     background-color: rgb(255,36,0);
     
 }
