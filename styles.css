@@ -155,14 +155,14 @@ nav .fa {
 }
 
 .index-button:hover {
-    background-color: #e49d33; /* Darker shade on hover */
+    background-color: #4169E1; /* Darker shade on hover */
     transform: translateY(-3px);
     cursor: pointer;
 }
 
 .index-button:active {
     transform: translateY(0);
-    background-color: #004085; /* Even darker shade when clicked */
+    background-color: #008080; /* Even darker shade when clicked */
 }
 
 
@@ -292,7 +292,7 @@ h3 {
 
 /* Overlay hover effect */
 .layer:hover {
-    background: rgba(162, 0, 226, 0.7);
+    background: rgba(255, 255, 0, 0.4);
 }
 
 
@@ -300,7 +300,7 @@ h3 {
 .layer h3 {
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: #ff2000;
     font-size: 26px;
     bottom: 0;
     left: 50%;
